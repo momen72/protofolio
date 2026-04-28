@@ -46,10 +46,10 @@ export default function Timeline() {
       {/* Timeline */}
       <div className="relative max-w-5xl mx-auto">
         {/* Center Line */}
-        <div className="absolute left-1/2 top-0 w-[2px] h-full bg-gray-600 transform -translate-x-1/2">
-                <div className="absolute transform -translate-x-1/2 w-4 h-4 bg-[#A6FF5D] rounded-full shadow-[#A6FF5D]  shadow-[0px_0px_10px_8px_rgba(0,0,0,1)]"></div>
-                <div className="absolute transform -translate-x-1/2 top-1/2 w-4 h-4 bg-[#A6FF5D] rounded-full shadow-[#A6FF5D]  shadow-[0px_0px_10px_8px_rgba(0,0,0,1)]"></div>
-                <div className="absolute transform -translate-x-1/2 top-3/4 w-4 h-4 bg-[#A6FF5D] rounded-full shadow-[#A6FF5D]  shadow-[0px_0px_10px_8px_rgba(0,0,0,1)]"></div>
+        <div className=" absolute left-1/2 top-0 w-[2px] h-full bg-gray-600 transform -translate-x-1/2">
+                <div className="absolute top-[-25px] md: transform -translate-x-1/2 w-4 h-4 bg-[#A6FF5D] rounded-full shadow-[#A6FF5D]  shadow-[0px_0px_10px_8px_rgba(0,0,0,1)]"></div>
+                <div className="absolute top-[270px] md: top-[250px] md: transform -translate-x-1/2 top-1/2 w-4 h-4 bg-[#A6FF5D] rounded-full shadow-[#A6FF5D]  shadow-[0px_0px_10px_8px_rgba(0,0,0,1)]"></div>
+                <div className="absolute  top-[530px] md:transform -translate-x-1/2 top-3/4 w-4 h-4 bg-[#A6FF5D] rounded-full shadow-[#A6FF5D]  shadow-[0px_0px_10px_8px_rgba(0,0,0,1)]"></div>
 
         </div>
 
@@ -60,9 +60,10 @@ export default function Timeline() {
               item.side === "left" ? "justify-start" : "justify-end"
             }`}
           >
-            <div className="w-full md:w-1/2 px-6">
+            <div className="relative w-full md:w-1/2 px-6">
               <div className="bg-[#1a1a1a] p-6 rounded-xl shadow-lg relative">
                 {/* Dot */}
+                <div className="absolute top-[-25px] transform left-1/2 -translate-x-1/2 w-4 h-4 bg-[#A6FF5D] rounded-full shadow-[#A6FF5D]  shadow-[0px_0px_10px_8px_rgba(0,0,0,1)] md:hidden"></div>
 
                 <h3 className="text-xl font-semibold mb-2">
                   {item.title}
