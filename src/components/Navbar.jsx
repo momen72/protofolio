@@ -22,7 +22,7 @@ const Radio = () => {
                             <NavLink to="/home" onClick={() => setMobileOpen(false)} className={({ isActive }) => isActive ? "text-white font-bold" :"text-white/70 hover:text-white/80"} > Home </NavLink>
                             <NavLink to="/services" onClick={() => setMobileOpen(false)} className={({ isActive }) => isActive ? "text-white font-bold" :"text-white/70 hover:text-white/80"}>Services</NavLink>
                             <NavLink to="/experience" onClick={() => setMobileOpen(false)} className={({ isActive }) => isActive ? "text-white font-bold" :"text-white/70 hover:text-white/80"}>Experience</NavLink>
-                            <NavLink to="/signup" onClick={() => setMobileOpen(false)} className={({ isActive }) => isActive ? "text-white font-bold" :"text-white/70 hover:text-white/80"}>SignUp</NavLink>
+                            <NavLink to="/contact" onClick={() => setMobileOpen(false)} className={({ isActive }) => isActive ? "text-white font-bold" :"text-white/70 hover:text-white/80"}>Contact me</NavLink>
 
                             <button id="close-menu" onClick={() => setMobileOpen(false)} className="md:hidden bg-gray-900 hover:bg-gray-800 text-white p-2 rounded-md aspect-square font-medium transition">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

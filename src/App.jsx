@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Signup from './components/Signup'
 import Services from './components/Services'
 import Experience from './components/Experience'
+import Contact from './components/Contact'
 
 // import Countercontext , {Counter} from './context/Countercontext'
 // import { useContext } from 'react'
@@ -19,6 +20,7 @@ const router =createBrowserRouter([
     {path:"experience",element:<Experience/>},
     {path:"services",element:<Services/>},
     {path:"signup",element:<Signup/>},
+    {path:"contact",element:<Contact/>},
     {path:"*",element:<div>Erorr</div>},
   ]}
 ])

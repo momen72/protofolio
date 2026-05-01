@@ -3,7 +3,7 @@ import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
     return (
-        <div className="pt-10 pb-8 bg-black text-white">
+        <div className="pt-0 pb-8 bg-black text-white">
             <div className="text-center">
                 <a href="https://prebuiltui.com?utm_source=eliana">
                     <img src="/assets/logo.png" alt="" className="w-36 mx-auto mb-2 dark:hidden" />
