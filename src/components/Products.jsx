@@ -23,7 +23,7 @@ const Products = () => {
             image: img3,
         },
         {
-            title: "Think Big, Code Smart",
+            title: "Certificate",
             image: img4,
         },
         {
