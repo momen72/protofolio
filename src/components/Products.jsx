@@ -11,31 +11,31 @@ const Products = () => {
     const [stopScroll, setStopScroll] = React.useState(false);
     const cardData = [
         {
-            title: "Unlock Your Creative Flow",
+            title: "Cars , Social media designs",
             image: img1,
         },
         {
-            title: "Design Your Digital Future",
+            title: "Social media designs",
             image: img2,
         },
         {
-            title: "Build with Passion, Ship with Pride",
+            title: "Social media designs",
             image: img3,
         },
         {
-            title: "Certificate",
+            title: "Social media designs",
             image: img4,
         },
         {
-            title: "Think Big, Code Smart",
+            title: "Book cover",
             image: img5,
         },
         {
-            title: "Think Big, Code Smart",
+            title: "Certificates",
             image: img6,
         },
         {
-            title: "Think Big, Code Smart",
+            title: "Packaging",
             image: img7,
         },
     ];
