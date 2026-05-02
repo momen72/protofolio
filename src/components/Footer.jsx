@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
                 {/* <p>© {new Date().getFullYear()} All rights reserved.</p> */}
                 <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-                    <li><a target='_blank' href="https://github.com/prebuiltui" className="hover:text-[#A6FF5D]">GitHub</a></li>
+                    <li><a target='_blank' href="https://github.com/momen72" className="hover:text-[#A6FF5D]">GitHub</a></li>
                     <li><a target='_blank' href="https://www.linkedin.com/in/mo-men-elroweny-42b2011bb/" className="hover:text-[#A6FF5D]">LinkedIn</a></li>
                     <li><a target='_blank' href="https://www.behance.net/moemenelroweny" className="hover:text-[#A6FF5D]">Behance</a></li>
                 </ul>
