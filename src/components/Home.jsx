@@ -5,6 +5,7 @@ import About from './About';
 
 const Home = () => {
     const sectionRef = useRef();
+    const section = useRef();
     const navigate = useNavigate()
     
     return (
@@ -31,7 +32,7 @@ const Home = () => {
                 </p>
 
                 <div className='flex gap-3 mt-8'>
-                    <button className="bg-[#A6FF5D] hover:bg-[#A6FF5D]/90 text-gray-800 px-6 py-2.5 rounded-full text-sm transition cursor-pointer group" onClick={() => sectionRef.current.scrollIntoView()}>
+                    <button className="bg-[#A6FF5D] hover:bg-[#A6FF5D]/90 text-gray-800 px-6 py-2.5 rounded-full text-sm transition cursor-pointer group" onClick={() => section.current.scrollIntoView()}>
                          <div className="relative overflow-hidden">
                             <span className="block transition-transform duration-200 group-hover:-translate-y-full">
                                 Get Started today
@@ -61,7 +62,7 @@ const Home = () => {
                     <p className='text-sm text-white/50'>Scroll down</p>
                 </div>
             </header>
-            <div ref={sectionRef}>
+            <div ref={section}>
 
             <About/>
             </div>
