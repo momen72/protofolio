@@ -4,8 +4,8 @@ export default function Services() {
             name: 'Web design',
             icon: '../assets/New folder/web-icon.png',
             description: 'The process of designing websites, combining UI, UX, and content structure to create functional and attractive web pages.',
-            link: '#',
-            showButton: false,
+            link: 'https://github.com/momen72',
+            showButton: true,
         },
         {
             name: 'UI/ UX design',
