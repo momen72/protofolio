@@ -30,10 +30,10 @@ export default function Services() {
 
             <div className="flex flex-wrap md:gap-7 my-10 mx-6 md:mx-20 w-fit justify-center">
                 {services.map((service) => (
-                    <div key={service.name} className="bg-black border border-gray-300 rounded-lg px-8 py-12 cursor-pointer hover:-translate-y-1 hover:-translate-x-1 duration-500 hover:bg-darkHover hover:shadow-emerald-400 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                    <div key={service.name} className="flex flex-col bg-black border border-gray-300 rounded-lg px-8 py-12 cursor-pointer hover:-translate-y-1 hover:-translate-x-1 duration-500 hover:bg-darkHover hover:shadow-emerald-400 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                         <img src={service.icon} alt="" className="w-10" />
                         <h3 className="text-lg my-4 text-white">{service.name}</h3>
-                        <p className="text-sm  leading-5 w-75 text-white/80">{service.description}</p>
+                        <p className="text-sm  leading-5 w-75 text-white/80 flex-1">{service.description}</p>
                         {service.showButton && 
                         <a href={service.link}  className="flex items-center w-max gap-2 mt-8 hover:-translate-y-0.5 transition bg-gradient-to-r bg-[#A6FF5D] bg-[#73ff00] py-3 px-8 rounded-full text-black">
                         <span>Read more</span>
